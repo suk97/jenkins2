@@ -5,4 +5,5 @@ yum install -y docker-ce docker-ce-cli containerd.io
 systemctl start docker
 docker pull httpd
 docker run -itd -p 60888:80 --name h1 httpd
+echo "byebye"
 
